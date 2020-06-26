@@ -1,0 +1,13 @@
+{
+  "name": "cljs-google-cloud-function",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "firebase-tools": "^8.4.3",
+    "shadow-cljs": "2.10.13"
+  },
+  "dependencies": {
+    "firebase-admin": "^8.12.1",
+    "firebase-functions": "^3.7.0"
+  }
+}

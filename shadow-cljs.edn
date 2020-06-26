@@ -1,0 +1,13 @@
+;; shadow-cljs configuration
+{:source-paths
+ ["src/dev"
+  "src/main"
+  "src/test"]
+
+ :dependencies
+ []
+
+ :builds
+ {:cloud-function {:target :node-library
+                   :output-to "functions/index.js"
+                   :exports-var cloud-function/main}}}
